@@ -11,7 +11,7 @@
         "HANDLERS": {
             "description": "Prefix of commands. Can be also false",
             "required": true,
-            "value":".,"
+            "value":"/"
         },
         "MULTI_HANDLERS": {
             "description": "Use prefix as given handlers and also without handlers",
@@ -33,15 +33,15 @@
             "required": true,
             "value":""
         },
-        "HEROKU_APP_NAME": {
+        "NANZUKU": {
             "description": "Exact name which you gave at the top",
             "required": true,
             "value":""
         },
         "STICKER_DATA": {
-            "description": "Name of stickers created using bot. Can also split using ;",
+            "description": "NANZUKU",
             "required": true,
-            "value":"Raganork pack;Author name"
+            "value":"NANZUKU"
         },
         "CHATBOT": {
             "description": "AI chatbot",
@@ -86,12 +86,12 @@
         "WARN": {
             "description": "Warn limit",
             "required": false,
-            "value":"3"
+            "value":"5"
         },
         "LANGUAGE": {
-            "description": "Available languages: english,manglish,turkish",
+            "description": "Available languages: DEUTSCH",
             "required": false,
-            "value":"english"
+            "value":"DEUTSCH "
         },
         "AUTO_READ_STATUS": {
             "description": "View status updates automatically",
